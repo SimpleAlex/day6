@@ -1,0 +1,84 @@
+body {
+  background: #9B59B6;
+}
+
+* {
+  font-family: 'Nunito', sans-serif;
+  text-decoration: none;
+  list-style: none;
+  /*text-align: center;*/
+}
+
+::selection {
+  background: #3f3f4e;
+}
+
+.title {
+  color: #fff;
+  text-align: center;
+}
+.title p {
+  color: #212129;
+  font-size: 1.3em;
+}
+
+.title .notice {
+  color: #fff;
+}
+.title .notice span {
+  color: #212129;
+  font-weight: bold;
+  border-bottom: #fff 2px solid;
+}
+
+/*STYLES*/
+.block1 {
+  text-align: center;
+  color: #fff;
+}
+.block1 input {
+  border: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-outline: none;
+  -ms-outline: none;
+  outline: none;
+}
+.block1 input[type=text] {
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+.block1 input[type=range] {
+    -webkit-appearance: none;
+    border-radius: 8px;
+    height: 7px;
+    /*border: 1px solid #bdc3c7;*/
+    background-color: #212129;
+}
+.block1 input[type='range']::-webkit-slider-thumb {
+-webkit-appearance: none;
+background-color: #fff;
+border: 1px solid #212129;
+width: 20px;
+height: 20px;
+border-radius: 10px;
+cursor: pointer;
+}
+
+/*STYLE FOR BLOCK*/
+#block {
+  margin: auto;
+  position: absolute;
+  left: 0;
+  right: 0;
+  background: #F1C40F;
+  width: 200px;
+  height: 200px;
+}
+
+@media screen and (max-width: 480px) {
+  .block1 p {
+    line-height:200%;
+  }
+}
